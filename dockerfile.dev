@@ -1,0 +1,17 @@
+# Use Node version Alpine as a base image for custom image
+FROM node:alpine
+
+# Create app directory and execute rest command in this directory
+WORKDIR '/app'
+
+# Copy dependency file
+COPY package.json .
+
+# Install dependencies
+RUN npm install
+
+# Copy Complete Project
+COPY . .
+
+# Container Startup Command
+CMD ["npm","run","start"]
