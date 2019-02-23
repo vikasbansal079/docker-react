@@ -1,9 +1,11 @@
+# docker-react
 
-docker build -f dockerfile.dev -t vibansal079/react:latest .
-docker run -p 8080:3000 -v /app/node_modules -v $(pwd):/app <image-id>
-docker-compose up
-docker build .
-docker run -p 8080:80 vibansal079/ngnix_react
+## Docker Commands and details
+`docker build -f dockerfile.dev -t vibansal079/react:latest .`
+`docker run -p 8080:3000 -v /app/node_modules -v $(pwd):/app <image-id>`
+`docker-compose up`
+`docker build .`
+`docker run -p 8080:80 vibansal079/ngnix_react`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
