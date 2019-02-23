@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 docker build -f dockerfile.dev -t vibansal079/react:latest .
 docker run -p 8080:3000 -v /app/node_modules -v $(pwd):/app <image-id>
 docker-compose up
@@ -72,3 +73,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# docker-react
+>>>>>>> fc598367c3248de2b0f42aff44bb8ee41094eddb
